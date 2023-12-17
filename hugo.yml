@@ -66,12 +66,12 @@ menu:
     - identifier: portfolio
       name: Portfolio
       url: portfolio/
-      weight: 10
+      weight: 20
+    - name: Archive
+      url: archives
+      weight: 30 
     - identifier: tags
       name: Tags
       url: tags/
-      weight: 10
-    - name: Archive
-      url: archives
-      weight: 10 
+      weight: 40
 
