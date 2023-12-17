@@ -45,6 +45,9 @@ params:
     - name: email
       url: "mailto:betsy.h.camp@gmail.com"
 
+  assets:
+    disableHLJS: true # disable Highlight.js sitewide; use Chroma syntax highlighting 
+
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -55,7 +58,6 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
 
 menu:
   main:
@@ -75,3 +77,19 @@ menu:
       url: tags/
       weight: 40
 
+# Configure Chroma code syntax highlighting
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: monokai
+    tabWidth: 4
