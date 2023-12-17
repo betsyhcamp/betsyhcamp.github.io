@@ -5,8 +5,6 @@ paginate: 10
 theme: PaperMod
 enableEmoji: true
 
-
-
 params: 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ElizabethHCamp 
@@ -57,6 +55,7 @@ params:
 
   assets:
     disableHLJS: true # disable Highlight.js sitewide; use Chroma syntax highlighting 
+    favicon: "images/binary-code.png"
 
   # for search
   # https://fusejs.io/api/options.html
