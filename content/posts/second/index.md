@@ -3,8 +3,6 @@ title: "This is a second test post"
 date: 2023-12-16
 tags: ["initial post", "syntax", "math"]
 series: ["Themes Guide"]
-ShowToc: true
-TocOpen: true
 math: mathjax
 draft: false
 ---
