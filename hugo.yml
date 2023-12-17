@@ -12,6 +12,7 @@ params:
   description: "Hi, my name is Elizabeth Camp. I'm a PhD-trained fluid dynamicist turned full stack data scientist.
     This website contains my personal projects and blog posts."
   keywords: [Blog, Portfolio, Data Science, Machine Learning, Statistics]
+  images: ["images/binary-code.png"]
   defaultTheme: auto
   
   ShowReadingTime: true
@@ -32,7 +33,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "Hi, my name is Elizabeth Camp." # optional default will be site title
+    title: "\U0001F44B Hi, my name is Elizabeth Camp." # optional default will be site title
     subtitle: "Feel free to call me by my nickname, Betsy! I'm a PhD-trained fluid dynamicist turned full stack data scientist.
     This website contains my personal projects and blog posts."
     imageUrl: "images/professional_headshot_small.jpeg" # optional
@@ -42,7 +43,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    title: "Hi, my name is Elizabeth Camp." # optional default will be site title
+    title: "\U0001F44B Hi, my name is Elizabeth Camp." # optional default will be site title
     subtitle: "Feel free to call me by my nickname, Betsy! I'm a PhD-trained fluid dynamicist turned full stack data scientist.
     This website contains my personal projects and blog posts."
   socialIcons:
