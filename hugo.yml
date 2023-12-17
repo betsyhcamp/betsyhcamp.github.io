@@ -1,0 +1,77 @@
+baseurl: https://betsyhcamp.github.io/
+languageCode: en-us
+title: Elizabeth H. Camp
+paginate: 10
+theme: PaperMod
+enableEmoji: true
+
+ShowReadingTime: true
+ShowShareButtons: false
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowWordCount: false
+ShowRssButtonInSectionTermList: false
+
+params: 
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ElizabethHCamp 
+  author: Elizabeth H. Camp  
+  description: "Hi, my name is Elizabeth Camp. I'm a PhD-trained fluid dynamicist turned full stack data scientist.
+    This website contains my personal projects and blog posts."
+  keywords: [Blog, Portfolio, Data Science, Machine Learning, Statistics]
+  defaultTheme: auto
+  
+  profileMode:
+    enabled: true
+    title: "Hi, my name is Elizabeth Camp." # optional default will be site title
+    subtitle: "Feel free to call me by my nickname, Betsy! I'm a PhD-trained fluid dynamicist turned full stack data scientist.
+    This website contains my personal projects and blog posts."
+    imageUrl: "images/professional_headshot_small.jpeg" # optional
+    imageTitle: "professional_headshot_small" # optional
+    imageWidth: 300 # custom size
+    imageHeight: 300 # custom size
+
+  # home-info mode
+  homeInfoParams:
+    title: "Hi, my name is Elizabeth Camp." # optional default will be site title
+    subtitle: "Feel free to call me by my nickname, Betsy! I'm a PhD-trained fluid dynamicist turned full stack data scientist.
+    This website contains my personal projects and blog posts."
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/betsyhcamp/"
+    - name: github
+      url: "https://github.com/betsyhcamp" 
+    - name: email
+      url: "mailto:betsy.h.camp@gmail.com"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: posts/
+      weight: 10
+    - identifier: portfolio
+      name: Portfolio
+      url: portfolio/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 10
+    - name: Archive
+      url: archives
+      weight: 10 
+
