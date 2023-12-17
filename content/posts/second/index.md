@@ -33,3 +33,16 @@ $$
   \end{bmatrix}
 $$
 {{< /math >}}
+
+
+```python
+from typing import Union
+def add_two(num_1:Union[int,float], num_2:Union[int,float])->Union[int,float]:
+    """Add two numbers and return the result"""
+    return num_1 + num_2
+
+def multiply_two(num_1:Union[int,float], num_2:Union[int,float])->Union[int,float]:
+    """Multiply two numbers and return the result"""
+    return num_1 * num_2
+
+```
