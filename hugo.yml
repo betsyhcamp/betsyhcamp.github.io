@@ -5,13 +5,7 @@ paginate: 10
 theme: PaperMod
 enableEmoji: true
 
-ShowReadingTime: true
-ShowShareButtons: false
-ShowPostNavLinks: true
-ShowBreadCrumbs: true
-ShowCodeCopyButtons: true
-ShowWordCount: false
-ShowRssButtonInSectionTermList: false
+
 
 params: 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -22,6 +16,22 @@ params:
   keywords: [Blog, Portfolio, Data Science, Machine Learning, Statistics]
   defaultTheme: auto
   
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  ShowPageNums: true
+  ShowToc: true
+  TocOpen: false
+
+  label:
+    text: "Elizabeth H. Camp"
+    icon: "images/binary-code.png"
+    iconHeight: 35
+
   profileMode:
     enabled: true
     title: "Hi, my name is Elizabeth Camp." # optional default will be site title
@@ -87,7 +97,7 @@ markup:
     hl_inline: false
     lineAnchors: ""
     lineNoStart: 1
-    lineNos: false
+    lineNos: true
     lineNumbersInTable: true
     noClasses: true
     noHl: false
