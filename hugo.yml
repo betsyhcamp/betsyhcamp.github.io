@@ -11,7 +11,7 @@ params:
   author: Elizabeth H. Camp  
   description: "Hi, my name is Elizabeth Camp. I'm a PhD-trained fluid dynamicist turned full stack data scientist.
     This website contains my personal projects and blog posts."
-  keywords: [Blog, Portfolio, Data Science, Machine Learning, Statistics]
+  keywords: [Blog, Portfolio, Data Science, Machine Learning, Statistics, Machine Learning Engineering, MLOps]
   defaultTheme: auto
   
   ShowReadingTime: true
@@ -27,12 +27,12 @@ params:
 
   label:
     text: "Elizabeth H. Camp"
-    icon: "images/binary-code.png"
+    icon: "binary-code.png"
     iconHeight: 35
 
   profileMode:
     enabled: true
-    title: "Hi, my name is Elizabeth Camp." # optional default will be site title
+    title: "\U0001F44B Hi, my name is Elizabeth Camp." # optional default will be site title
     subtitle: "Feel free to call me by my nickname, Betsy! I'm a PhD-trained fluid dynamicist turned full stack data scientist.
     This website contains my personal projects and blog posts."
     imageUrl: "images/professional_headshot_small.jpeg" # optional
@@ -42,7 +42,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    title: "Hi, my name is Elizabeth Camp." # optional default will be site title
+    title: "\U0001F44B Hi, my name is Elizabeth Camp." # optional default will be site title
     subtitle: "Feel free to call me by my nickname, Betsy! I'm a PhD-trained fluid dynamicist turned full stack data scientist.
     This website contains my personal projects and blog posts."
   socialIcons:
@@ -55,7 +55,7 @@ params:
 
   assets:
     disableHLJS: true # disable Highlight.js sitewide; use Chroma syntax highlighting 
-    favicon: "images/binary-code.png"
+    favicon: "binary-code.png"
 
   # for search
   # https://fusejs.io/api/options.html
