@@ -28,7 +28,7 @@ print('test')
 # Construct basic dataframe and print out characteristics
 df = pd.DataFrame({'a':[1, 2, 3, 4, 4.5, 2.5]})
 df.info()
-df.head()
+print(df.head())
 ```
 
     <class 'pandas.core.frame.DataFrame'>
@@ -39,57 +39,12 @@ df.head()
      0   a       6 non-null      float64
     dtypes: float64(1)
     memory usage: 176.0 bytes
-
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>a</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>4.5</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+         a
+    0  1.0
+    1  2.0
+    2  3.0
+    3  4.0
+    4  4.5
 
 
 
