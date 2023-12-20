@@ -11,7 +11,8 @@ Problem statement:
 
 A game piece begins at $(x,y)=(0,0)$ on an 2D Cartesian plane. The game piece is allowed six moves with each move being parallel to an axis. After the six moves, what is the probability that the game piece is located on $|y| = |x|$?  
 
-<img src="./images/coordinate_diagram.png" align=center width=50%>
+![coordinate-diagram](./images/coordinate_diagram.png)
+
 
 
 ```python
